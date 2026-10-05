@@ -1,0 +1,9 @@
+slug: crypto-aes-cbc-bitflip
+name: "AES-CBC Bit-Flipping Attack"
+category: crypto
+description: >
+  A cookie contains encrypted user data: user=guest;admin=0. Flip ciphertext bits in the previous block to modify decrypted plaintext to admin=1.
+points: 250
+docker_image: "ctf/crypto-aes-cbc-bitflip:latest"
+container_port: 5000
+flag_env_var: FLAG

@@ -1,0 +1,9 @@
+slug: forensics-stego-lsb-image
+name: "Steganographic Pixel Art"
+category: forensics
+description: >
+  An innocent-looking PNG image contains secret data encoded in the Least Significant Bits (LSB) of the red and green color channels.
+points: 150
+docker_image: "ctf/forensics-stego-lsb-image:latest"
+container_port: 5000
+flag_env_var: FLAG

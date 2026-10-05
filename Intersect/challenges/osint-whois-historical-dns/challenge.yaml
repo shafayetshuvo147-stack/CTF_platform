@@ -1,0 +1,9 @@
+slug: osint-whois-historical-dns
+name: "Historical WHOIS Registrar Audit"
+category: osint
+description: >
+  While modern WHOIS uses privacy protection, historical WHOIS records from 2018 reveal the founder's personal email and server IP address.
+points: 150
+docker_image: "ctf/osint-whois-historical-dns:latest"
+container_port: 5000
+flag_env_var: FLAG

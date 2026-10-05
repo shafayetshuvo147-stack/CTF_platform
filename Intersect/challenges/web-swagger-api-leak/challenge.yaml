@@ -1,0 +1,9 @@
+slug: web-swagger-api-leak
+name: "Undocumented API Endpoints"
+category: web
+description: >
+  An unlinked Swagger UI / OpenAPI specification is left exposed at /v3/api-docs. Locate internal management routes to read the secret.
+points: 150
+docker_image: "ctf/web-swagger-api-leak:latest"
+container_port: 5000
+flag_env_var: FLAG

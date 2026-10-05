@@ -1,0 +1,9 @@
+slug: web-xss-stored-guestbook
+name: "VIP Guestbook Stored XSS"
+category: web
+description: >
+  A VIP party guestbook displays comments to visitors without sanitizing HTML tags. Inject a payload to simulate session token exfiltration.
+points: 180
+docker_image: "ctf/web-xss-stored-guestbook:latest"
+container_port: 5000
+flag_env_var: FLAG

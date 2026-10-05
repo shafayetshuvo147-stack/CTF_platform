@@ -1,0 +1,9 @@
+slug: forensics-corrupted-png-fix
+name: "Corrupted PNG Header Repair"
+category: forensics
+description: >
+  An image file cannot be opened because its magic bytes and IHDR chunk dimensions have been zeroed out. Hex edit the file to fix the PNG structure.
+points: 150
+docker_image: "ctf/forensics-corrupted-png-fix:latest"
+container_port: 5000
+flag_env_var: FLAG

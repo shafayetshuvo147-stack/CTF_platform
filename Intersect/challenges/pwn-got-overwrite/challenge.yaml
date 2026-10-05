@@ -1,0 +1,9 @@
+slug: pwn-got-overwrite
+name: "Global Offset Table (GOT) Overwrite"
+category: pwn
+description: >
+  With Partial RELRO enabled, use an arbitrary write primitive to overwrite the Global Offset Table entry of exit() with the address of win().
+points: 275
+docker_image: "ctf/pwn-got-overwrite:latest"
+container_port: 5000
+flag_env_var: FLAG

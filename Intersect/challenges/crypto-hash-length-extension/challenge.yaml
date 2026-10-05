@@ -1,0 +1,9 @@
+slug: crypto-hash-length-extension
+name: "SHA-256 MAC Extension"
+category: crypto
+description: >
+  A server authenticates commands with H(secret || message) using SHA-256. Exploit Merkle-Damgard length extension to forge an admin command without the secret.
+points: 275
+docker_image: "ctf/crypto-hash-length-extension:latest"
+container_port: 5000
+flag_env_var: FLAG

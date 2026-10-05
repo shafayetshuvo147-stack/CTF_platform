@@ -1,0 +1,9 @@
+slug: pwn-buffer-overflow-ret2win
+name: "Buffer Overflow 101: Ret2Win"
+category: pwn
+description: >
+  A classic stack buffer overflow allows overwriting the saved instruction pointer (EIP/RIP). Divert execution flow to the uncalled win() function.
+points: 150
+docker_image: "ctf/pwn-buffer-overflow-ret2win:latest"
+container_port: 5000
+flag_env_var: FLAG

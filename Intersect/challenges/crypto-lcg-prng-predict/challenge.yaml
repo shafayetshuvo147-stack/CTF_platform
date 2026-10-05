@@ -1,0 +1,9 @@
+slug: crypto-lcg-prng-predict
+name: "Linear Congruential Predictor"
+category: crypto
+description: >
+  A lottery random number generator uses a standard Linear Congruential Generator (LCG). Reconstruct multiplier a, increment c, and predict the winning sequence.
+points: 225
+docker_image: "ctf/crypto-lcg-prng-predict:latest"
+container_port: 5000
+flag_env_var: FLAG

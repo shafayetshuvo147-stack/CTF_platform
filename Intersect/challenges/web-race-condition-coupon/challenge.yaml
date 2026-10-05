@@ -1,0 +1,9 @@
+slug: web-race-condition-coupon
+name: "Flash Sale TOCTOU Race"
+category: web
+description: >
+  A one-time promo code redemption has a Time-of-Check to Time-of-Use race condition. Send concurrent requests to redeem credit and buy the flag item.
+points: 275
+docker_image: "ctf/web-race-condition-coupon:latest"
+container_port: 5000
+flag_env_var: FLAG

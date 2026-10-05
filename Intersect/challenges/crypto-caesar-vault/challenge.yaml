@@ -1,0 +1,9 @@
+slug: crypto-caesar-vault
+name: "Ancient Vault Cipher"
+category: crypto
+description: >
+  An ancient lock mechanism encodes transmissions using rotational shift ciphering. Decipher the intercepted stream to retrieve the master code.
+points: 100
+docker_image: "ctf/crypto-caesar-vault:latest"
+container_port: 5000
+flag_env_var: FLAG

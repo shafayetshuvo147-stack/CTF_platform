@@ -1,0 +1,9 @@
+slug: rev-vm-interpreter
+name: "Custom Bytecode Virtual Machine"
+category: rev
+description: >
+  The program implements a custom virtual machine with unique opcodes for ADD, XOR, PUSH, and JMP. Reverse the instruction set architecture (ISA).
+points: 350
+docker_image: "ctf/rev-vm-interpreter:latest"
+container_port: 5000
+flag_env_var: FLAG

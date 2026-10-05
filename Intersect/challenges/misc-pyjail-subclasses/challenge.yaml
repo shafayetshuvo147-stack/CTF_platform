@@ -1,0 +1,9 @@
+slug: misc-pyjail-subclasses
+name: "Python Sandbox Escape: Subclasses"
+category: misc
+description: >
+  A Python jail environment blocks import and standard builtins. Traverse object.__subclasses__() to find os._wrap_close and execute commands.
+points: 200
+docker_image: "ctf/misc-pyjail-subclasses:latest"
+container_port: 5000
+flag_env_var: FLAG

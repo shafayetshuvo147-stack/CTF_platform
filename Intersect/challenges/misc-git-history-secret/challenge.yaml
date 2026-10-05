@@ -1,0 +1,9 @@
+slug: misc-git-history-secret
+name: "Git Commit Time Machine"
+category: misc
+description: >
+  A developer deleted a secret API key in the latest commit, but the key remains preserved in the git history tree and dangling reflogs.
+points: 125
+docker_image: "ctf/misc-git-history-secret:latest"
+container_port: 5000
+flag_env_var: FLAG

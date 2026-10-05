@@ -1,0 +1,9 @@
+slug: web-sqli-basic
+name: "Staff Portal Authentication"
+category: web
+description: >
+  An internal staff portal login is vulnerable to classic string concatenation SQL injection. Bypass authentication to retrieve the administrative flag.
+points: 100
+docker_image: "ctf/web-sqli-basic:latest"
+container_port: 5000
+flag_env_var: FLAG

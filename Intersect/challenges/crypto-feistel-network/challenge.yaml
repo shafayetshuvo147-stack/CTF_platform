@@ -1,0 +1,9 @@
+slug: crypto-feistel-network
+name: "Custom Feistel Block Cipher"
+category: crypto
+description: >
+  A proprietary banking protocol implements a 4-round Feistel network with a linear round function. Reverse the round transformations to invert the cipher.
+points: 275
+docker_image: "ctf/crypto-feistel-network:latest"
+container_port: 5000
+flag_env_var: FLAG

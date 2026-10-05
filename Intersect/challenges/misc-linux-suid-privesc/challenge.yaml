@@ -1,0 +1,9 @@
+slug: misc-linux-suid-privesc
+name: "Linux SUID Binary Escalation"
+category: misc
+description: >
+  A custom binary on the server has the SUID permission bit set (chmod u+s). Exploit GTFOBins techniques to escalate from low-privilege user to root.
+points: 175
+docker_image: "ctf/misc-linux-suid-privesc:latest"
+container_port: 5000
+flag_env_var: FLAG

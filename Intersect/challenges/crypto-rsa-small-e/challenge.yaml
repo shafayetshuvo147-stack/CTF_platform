@@ -1,0 +1,9 @@
+slug: crypto-rsa-small-e
+name: "RSA Small Public Exponent"
+category: crypto
+description: >
+  An RSA implementation used e=3 with small message m such that m^3 < N. Compute the integer cube root of the ciphertext to decrypt.
+points: 175
+docker_image: "ctf/crypto-rsa-small-e:latest"
+container_port: 5000
+flag_env_var: FLAG

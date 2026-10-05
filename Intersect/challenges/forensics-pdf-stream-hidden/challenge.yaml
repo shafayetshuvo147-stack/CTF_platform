@@ -1,0 +1,9 @@
+slug: forensics-pdf-stream-hidden
+name: "Classified PDF Document Objects"
+category: forensics
+description: >
+  A redacted government PDF document has hidden stream objects and FlateDecode compressed layers. Decompress the PDF objects to read behind black bars.
+points: 175
+docker_image: "ctf/forensics-pdf-stream-hidden:latest"
+container_port: 5000
+flag_env_var: FLAG

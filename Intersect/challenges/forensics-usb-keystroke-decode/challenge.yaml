@@ -1,0 +1,9 @@
+slug: forensics-usb-keystroke-decode
+name: "USB Keystroke HID Capture"
+category: forensics
+description: >
+  A packet capture records raw USB Human Interface Device (HID) interrupt transfers. Parse the USB keycodes to reconstruct what the attacker typed.
+points: 225
+docker_image: "ctf/forensics-usb-keystroke-decode:latest"
+container_port: 5000
+flag_env_var: FLAG

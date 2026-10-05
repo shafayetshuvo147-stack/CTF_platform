@@ -1,0 +1,9 @@
+slug: rev-android-smali-crack
+name: "Android Smali Bytecode"
+category: rev
+description: >
+  An Android APK checks user PIN in a Smali method with XOR checks. Decompile the APK with Jadx/Apktool to identify the correct validation routine.
+points: 225
+docker_image: "ctf/rev-android-smali-crack:latest"
+container_port: 5000
+flag_env_var: FLAG

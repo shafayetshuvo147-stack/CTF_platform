@@ -1,0 +1,9 @@
+slug: misc-pyjail-restricted-ast
+name: "Zero Characters PyJail"
+category: misc
+description: >
+  The Python evaluation script blocks all letters and numbers! Craft an execution payload using purely symbols, dicts, and bitwise operations.
+points: 300
+docker_image: "ctf/misc-pyjail-restricted-ast:latest"
+container_port: 5000
+flag_env_var: FLAG

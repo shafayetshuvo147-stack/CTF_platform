@@ -1,0 +1,9 @@
+slug: misc-docker-socket-escape
+name: "Docker Socket Container Breakout"
+category: misc
+description: >
+  The container has /var/run/docker.sock mounted inside. Use curl or the docker CLI to spawn a privileged container mounted to the host root filesystem.
+points: 250
+docker_image: "ctf/misc-docker-socket-escape:latest"
+container_port: 5000
+flag_env_var: FLAG

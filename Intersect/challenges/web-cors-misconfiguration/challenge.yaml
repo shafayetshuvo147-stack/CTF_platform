@@ -1,0 +1,9 @@
+slug: web-cors-misconfiguration
+name: "Origin Trust Misconfig"
+category: web
+description: >
+  The user API reflects the Origin header with Access-Control-Allow-Credentials: true. Analyze the misconfiguration to craft an exploit.
+points: 175
+docker_image: "ctf/web-cors-misconfiguration:latest"
+container_port: 5000
+flag_env_var: FLAG

@@ -1,0 +1,9 @@
+slug: rev-matrix-vault
+name: "Matrix Biometric Gatekeeper"
+category: rev
+description: >
+  Analyze the embedded firmware verification routine to reconstruct the master cryptographic authorization key.
+points: 150
+docker_image: "ctf/rev-matrix-vault:latest"
+container_port: 5000
+flag_env_var: FLAG

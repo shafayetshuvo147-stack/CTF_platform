@@ -1,0 +1,9 @@
+slug: web-xxe-xml-entity
+name: "XML Invoice Parser XXE"
+category: web
+description: >
+  A supplier invoice portal accepts XML uploads. Exploit XML External Entity (XXE) injection to extract local server files.
+points: 250
+docker_image: "ctf/web-xxe-xml-entity:latest"
+container_port: 5000
+flag_env_var: FLAG

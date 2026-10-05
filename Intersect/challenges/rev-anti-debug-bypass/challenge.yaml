@@ -1,0 +1,9 @@
+slug: rev-anti-debug-bypass
+name: "Debugger Detection Trap"
+category: rev
+description: >
+  The executable checks ptrace and IsDebuggerPresent API calls before revealing the secret. Patch the binary instructions to bypass anti-debugging.
+points: 275
+docker_image: "ctf/rev-anti-debug-bypass:latest"
+container_port: 5000
+flag_env_var: FLAG

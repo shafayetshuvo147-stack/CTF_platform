@@ -1,0 +1,9 @@
+slug: web-graphql-introspection
+name: "Aether GraphQL Schema Leak"
+category: web
+description: >
+  A modernized API uses GraphQL with introspection enabled in production. Query the hidden schema and extract secret fields.
+points: 200
+docker_image: "ctf/web-graphql-introspection:latest"
+container_port: 5000
+flag_env_var: FLAG

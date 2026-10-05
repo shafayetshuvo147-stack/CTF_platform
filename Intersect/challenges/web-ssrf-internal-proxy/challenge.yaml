@@ -1,0 +1,9 @@
+slug: web-ssrf-internal-proxy
+name: "Cloud Fetcher SSRF"
+category: web
+description: >
+  An image thumbnail generator fetches remote URLs without restricting internal network access. Pivot through localhost to query the internal metadata API.
+points: 225
+docker_image: "ctf/web-ssrf-internal-proxy:latest"
+container_port: 5000
+flag_env_var: FLAG

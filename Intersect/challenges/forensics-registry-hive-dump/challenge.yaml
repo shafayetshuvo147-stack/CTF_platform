@@ -1,0 +1,9 @@
+slug: forensics-registry-hive-dump
+name: "Windows Registry Hive Analysis"
+category: forensics
+description: >
+  Inspect SYSTEM and NTUSER.DAT registry hives to locate UserAssist execution logs, Run keys, and recently opened document MRU lists.
+points: 225
+docker_image: "ctf/forensics-registry-hive-dump:latest"
+container_port: 5000
+flag_env_var: FLAG

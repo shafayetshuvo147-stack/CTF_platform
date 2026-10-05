@@ -1,0 +1,9 @@
+slug: crypto-multi-byte-xor
+name: "Repeating-Key XOR Decryptor"
+category: crypto
+description: >
+  Intercepted encrypted text was masked with a repeating multi-byte key. Calculate normalized Hamming distances to determine key size and solve.
+points: 175
+docker_image: "ctf/crypto-multi-byte-xor:latest"
+container_port: 5000
+flag_env_var: FLAG

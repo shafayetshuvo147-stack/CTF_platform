@@ -1,0 +1,9 @@
+slug: misc-bash-rbash-escape
+name: "Restricted Bash (rbash) Escape"
+category: misc
+description: >
+  You are placed in a restricted shell (rbash) with $PATH set to a limited bin folder. Break out of the sandbox using vi / less / awk.
+points: 150
+docker_image: "ctf/misc-bash-rbash-escape:latest"
+container_port: 5000
+flag_env_var: FLAG

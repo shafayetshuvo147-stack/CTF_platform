@@ -1,0 +1,9 @@
+slug: osint-public-code-leak
+name: "Public Repository Secret Leak"
+category: osint
+description: >
+  A former contractor accidentally pushed an AWS access key and private endpoint URL in a public repository commit. Track down the repository.
+points: 125
+docker_image: "ctf/osint-public-code-leak:latest"
+container_port: 5000
+flag_env_var: FLAG

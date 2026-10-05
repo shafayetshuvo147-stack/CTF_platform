@@ -1,0 +1,9 @@
+slug: web-websocket-tamper
+name: "Live Stock Terminal"
+category: web
+description: >
+  A high-frequency trading WebSocket connection transmits unauthenticated price modification frames. Manipulate the stream to trigger payout.
+points: 200
+docker_image: "ctf/web-websocket-tamper:latest"
+container_port: 5000
+flag_env_var: FLAG

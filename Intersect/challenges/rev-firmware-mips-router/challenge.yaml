@@ -1,0 +1,9 @@
+slug: rev-firmware-mips-router
+name: "MIPS Router Firmware Reversal"
+category: rev
+description: >
+  An embedded IoT router firmware binary for MIPS architecture processes diagnostic packets. Disassemble the MIPS instructions to find the backdoor password.
+points: 300
+docker_image: "ctf/rev-firmware-mips-router:latest"
+container_port: 5000
+flag_env_var: FLAG

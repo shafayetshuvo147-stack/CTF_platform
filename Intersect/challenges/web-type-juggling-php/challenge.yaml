@@ -1,0 +1,9 @@
+slug: web-type-juggling-php
+name: "PHP Magic Hash Gateway"
+category: web
+description: >
+  A legacy authentication form uses loose comparison (==) against MD5 hashes. Find a magic hash collision (0e...) to authenticate without the password.
+points: 150
+docker_image: "ctf/web-type-juggling-php:latest"
+container_port: 5000
+flag_env_var: FLAG

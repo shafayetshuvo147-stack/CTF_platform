@@ -1,0 +1,9 @@
+slug: forensics-log-audit
+name: "Operation Phantom Beacon"
+category: forensics
+description: >
+  Analyze security access logs to isolate the exfiltrated base64 payload from an infected workstation.
+points: 150
+docker_image: "ctf/forensics-log-audit:latest"
+container_port: 5000
+flag_env_var: FLAG

@@ -1,0 +1,9 @@
+slug: pwn-shellcode-exec
+name: "Custom Shellcode Injection"
+category: pwn
+description: >
+  An executable stack buffer accepts raw bytecode. Write alphanumeric x86_64 shellcode to execute the sys_execve system call.
+points: 225
+docker_image: "ctf/pwn-shellcode-exec:latest"
+container_port: 5000
+flag_env_var: FLAG

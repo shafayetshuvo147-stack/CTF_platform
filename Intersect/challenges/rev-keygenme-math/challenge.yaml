@@ -1,0 +1,9 @@
+slug: rev-keygenme-math
+name: "CyberKeygen Mathematical Matrix"
+category: rev
+description: >
+  A license key validator solves a system of linear equations across key characters. Formulate the constraints using Z3 solver to generate a valid key.
+points: 250
+docker_image: "ctf/rev-keygenme-math:latest"
+container_port: 5000
+flag_env_var: FLAG

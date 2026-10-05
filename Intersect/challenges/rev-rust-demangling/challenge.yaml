@@ -1,0 +1,9 @@
+slug: rev-rust-demangling
+name: "Rust Pattern Matcher"
+category: rev
+description: >
+  A Rust executable checks a complex enum pattern. Demangle the Rust symbols and analyze the Match jump tables to find the flag input.
+points: 250
+docker_image: "ctf/rev-rust-demangling:latest"
+container_port: 5000
+flag_env_var: FLAG

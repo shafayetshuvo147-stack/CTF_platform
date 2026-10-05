@@ -1,0 +1,9 @@
+slug: forensics-audio-spectrogram
+name: "Sonic Spectrogram Frequency"
+category: forensics
+description: >
+  An audio WAV recording sounds like random static noise. Open the file in Sonic Visualiser / Audacity and switch to spectrogram view to read the flag.
+points: 150
+docker_image: "ctf/forensics-audio-spectrogram:latest"
+container_port: 5000
+flag_env_var: FLAG

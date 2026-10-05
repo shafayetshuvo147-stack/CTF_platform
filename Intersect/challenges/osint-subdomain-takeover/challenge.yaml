@@ -1,0 +1,9 @@
+slug: osint-subdomain-takeover
+name: "Dangling CNAME Takeover"
+category: osint
+description: >
+  An organization has a DNS CNAME record pointing to an unclaimed GitHub Pages / AWS S3 bucket. Identify the dangling record and reclaim it.
+points: 175
+docker_image: "ctf/osint-subdomain-takeover:latest"
+container_port: 5000
+flag_env_var: FLAG

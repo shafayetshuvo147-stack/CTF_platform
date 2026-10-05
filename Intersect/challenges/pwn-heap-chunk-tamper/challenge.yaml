@@ -1,0 +1,9 @@
+slug: pwn-heap-chunk-tamper
+name: "Heap Metadata Chunk Overwrite"
+category: pwn
+description: >
+  Corrupt the prev_size and size metadata fields of adjacent heap chunks to trigger an overlapping chunk condition and gain arbitrary read/write.
+points: 350
+docker_image: "ctf/pwn-heap-chunk-tamper:latest"
+container_port: 5000
+flag_env_var: FLAG

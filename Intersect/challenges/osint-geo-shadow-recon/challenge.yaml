@@ -1,0 +1,9 @@
+slug: osint-geo-shadow-recon
+name: "Geointelligence Sun Shadow Angle"
+category: osint
+description: >
+  Analyze the sun shadow angle, power plug standard, and architectural features in a target photograph to pinpoint the exact coordinates.
+points: 200
+docker_image: "ctf/osint-geo-shadow-recon:latest"
+container_port: 5000
+flag_env_var: FLAG

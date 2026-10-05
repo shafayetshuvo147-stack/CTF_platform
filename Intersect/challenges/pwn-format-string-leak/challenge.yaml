@@ -1,0 +1,9 @@
+slug: pwn-format-string-leak
+name: "Format String Memory Leak"
+category: pwn
+description: >
+  The program passes user input directly into printf(user_input). Use format specifiers (%x, %p, %s) to leak stack values and the secret flag.
+points: 200
+docker_image: "ctf/pwn-format-string-leak:latest"
+container_port: 5000
+flag_env_var: FLAG

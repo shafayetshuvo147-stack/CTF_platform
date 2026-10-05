@@ -1,0 +1,9 @@
+slug: web-jwt-none-alg
+name: "JWT Null Algorithm Forge"
+category: web
+description: >
+  The session verification middleware accepts JSON Web Tokens. Forge an administrative token using the notorious 'none' algorithm bypass.
+points: 175
+docker_image: "ctf/web-jwt-none-alg:latest"
+container_port: 5000
+flag_env_var: FLAG

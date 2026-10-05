@@ -1,0 +1,9 @@
+slug: forensics-zip-password-crack
+name: "Legacy ZipCrypto Cracking"
+category: forensics
+description: >
+  A password-protected ZIP archive was encrypted using the vulnerable ZipCrypto algorithm. Use bkcrack with known plaintext attack to recover the archive.
+points: 150
+docker_image: "ctf/forensics-zip-password-crack:latest"
+container_port: 5000
+flag_env_var: FLAG

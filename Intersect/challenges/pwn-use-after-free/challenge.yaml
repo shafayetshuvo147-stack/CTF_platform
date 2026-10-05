@@ -1,0 +1,9 @@
+slug: pwn-use-after-free
+name: "Heap Use-After-Free (UAF)"
+category: pwn
+description: >
+  A user object is freed but its pointer is not set to NULL (dangling pointer). Reallocate memory over the freed chunk to hijack function pointers.
+points: 325
+docker_image: "ctf/pwn-use-after-free:latest"
+container_port: 5000
+flag_env_var: FLAG

@@ -1,0 +1,9 @@
+slug: rev-assembly-x86-trace
+name: "x86 Assembly Control Flow"
+category: rev
+description: >
+  An x86 ELF binary contains an obfuscated state machine. Trace the jumps, bitwise operations, and memory registers to isolate the success path.
+points: 200
+docker_image: "ctf/rev-assembly-x86-trace:latest"
+container_port: 5000
+flag_env_var: FLAG

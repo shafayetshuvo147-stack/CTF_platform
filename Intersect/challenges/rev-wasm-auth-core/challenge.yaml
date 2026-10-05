@@ -1,0 +1,9 @@
+slug: rev-wasm-auth-core
+name: "WebAssembly Security Module"
+category: rev
+description: >
+  A client authentication check is compiled into a WebAssembly (.wasm) binary. Disassemble the Wasm bytecode and reverse the serial key check.
+points: 225
+docker_image: "ctf/rev-wasm-auth-core:latest"
+container_port: 5000
+flag_env_var: FLAG

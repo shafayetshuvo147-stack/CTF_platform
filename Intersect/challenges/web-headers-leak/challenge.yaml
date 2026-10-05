@@ -1,0 +1,9 @@
+slug: web-headers-leak
+name: "Corporate Staging Leak"
+category: web
+description: >
+  Inspect HTTP response headers, robots.txt, and hidden debug routes to discover a staging data dump containing the flag.
+points: 120
+docker_image: "ctf/web-headers-leak:latest"
+container_port: 5000
+flag_env_var: FLAG

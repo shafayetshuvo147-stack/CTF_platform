@@ -1,0 +1,9 @@
+slug: forensics-pcap-http-auth
+name: "Unencrypted HTTP Credentials"
+category: forensics
+description: >
+  Inspect a network capture of unencrypted legacy HTTP POST requests to find the administrator's transmitted credentials and flag token.
+points: 125
+docker_image: "ctf/forensics-pcap-http-auth:latest"
+container_port: 5000
+flag_env_var: FLAG

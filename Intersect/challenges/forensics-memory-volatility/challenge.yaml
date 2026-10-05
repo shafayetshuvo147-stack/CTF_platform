@@ -1,0 +1,9 @@
+slug: forensics-memory-volatility
+name: "Volatility Memory Triage"
+category: forensics
+description: >
+  A Windows memory dump (.raw) was captured during an active malware outbreak. Use Volatility to analyze pslist, cmdline, and extract the injected DLL.
+points: 250
+docker_image: "ctf/forensics-memory-volatility:latest"
+container_port: 5000
+flag_env_var: FLAG

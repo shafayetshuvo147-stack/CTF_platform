@@ -1,0 +1,9 @@
+slug: web-idor-customer-records
+name: "Bank Vault IDOR"
+category: web
+description: >
+  An online banking account summary allows viewing user invoices by ID. Exploit Insecure Direct Object References to access VIP account records.
+points: 150
+docker_image: "ctf/web-idor-customer-records:latest"
+container_port: 5000
+flag_env_var: FLAG

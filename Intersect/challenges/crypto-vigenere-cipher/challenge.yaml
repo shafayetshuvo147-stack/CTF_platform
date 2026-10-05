@@ -1,0 +1,9 @@
+slug: crypto-vigenere-cipher
+name: "Polyalphabetic Enigma"
+category: crypto
+description: >
+  A historical military telegram was encrypted using a repeating key Vigenère cipher. Use index of coincidence or Kasiski examination to find the key.
+points: 150
+docker_image: "ctf/crypto-vigenere-cipher:latest"
+container_port: 5000
+flag_env_var: FLAG

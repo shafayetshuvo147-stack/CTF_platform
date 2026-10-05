@@ -1,0 +1,9 @@
+slug: crypto-padding-oracle
+name: "CBC Padding Oracle Decryptor"
+category: crypto
+description: >
+  A decryption endpoint reveals whether PKCS#7 padding is valid or invalid. Exploit the padding oracle to decrypt the confidential ciphertext token.
+points: 350
+docker_image: "ctf/crypto-padding-oracle:latest"
+container_port: 5000
+flag_env_var: FLAG

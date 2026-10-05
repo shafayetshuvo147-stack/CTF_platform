@@ -1,0 +1,9 @@
+slug: crypto-rsa-fermat-factor
+name: "Fermat Close Prime Factorization"
+category: crypto
+description: >
+  An RSA modulus was generated using two prime numbers p and q that are very close to each other. Apply Fermat's factorization algorithm to factor N.
+points: 200
+docker_image: "ctf/crypto-rsa-fermat-factor:latest"
+container_port: 5000
+flag_env_var: FLAG

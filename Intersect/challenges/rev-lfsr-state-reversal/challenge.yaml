@@ -1,0 +1,9 @@
+slug: rev-lfsr-state-reversal
+name: "LFSR Key Stream Inversion"
+category: rev
+description: >
+  An encryption routine generates keystream bytes using a 32-bit Linear Feedback Shift Register. Invert the feedback taps to recover the initial seed.
+points: 250
+docker_image: "ctf/rev-lfsr-state-reversal:latest"
+container_port: 5000
+flag_env_var: FLAG

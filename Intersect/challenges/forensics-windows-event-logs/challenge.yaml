@@ -1,0 +1,9 @@
+slug: forensics-windows-event-logs
+name: "Lateral Movement Event Log Audit"
+category: forensics
+description: >
+  Analyze Windows Security Event Logs (EVTX) for Event ID 4624 (Logon Type 3) and Event ID 7045 (New Service Installed) to trace attacker persistence.
+points: 250
+docker_image: "ctf/forensics-windows-event-logs:latest"
+container_port: 5000
+flag_env_var: FLAG

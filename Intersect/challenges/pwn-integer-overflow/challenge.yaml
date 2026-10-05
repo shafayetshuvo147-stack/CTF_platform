@@ -1,0 +1,9 @@
+slug: pwn-integer-overflow
+name: "Integer Overflow Memory Corruption"
+category: pwn
+description: >
+  A size calculation multiplies two 32-bit integers without overflow checking. Cause an integer wrap-around to allocate a smaller buffer than requested.
+points: 200
+docker_image: "ctf/pwn-integer-overflow:latest"
+container_port: 5000
+flag_env_var: FLAG

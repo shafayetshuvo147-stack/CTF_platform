@@ -1,0 +1,9 @@
+slug: crypto-substitution-freq
+name: "Monoalphabetic Ciphertext"
+category: crypto
+description: >
+  A historical manifest was scrambled with a random alphabet substitution. Map letter frequencies, digrams, and trigrams to restore the original message.
+points: 125
+docker_image: "ctf/crypto-substitution-freq:latest"
+container_port: 5000
+flag_env_var: FLAG

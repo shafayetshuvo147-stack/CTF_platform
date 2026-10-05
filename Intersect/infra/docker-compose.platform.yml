@@ -1,0 +1,44 @@
+version: "3.9"
+
+services:
+  backend:
+    build:
+      context: ../backend
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      CTF_SECRET_KEY: "change-me-in-prod"
+      CTF_DATABASE_URL: "sqlite:////data/ctf.db"
+      CTF_ORCHESTRATOR: "docker"
+      CTF_CHALLENGE_NETWORK: "ctf_challenge_net"
+    volumes:
+      - ctf_data:/data
+      # Mount the host Docker socket so the orchestrator can launch
+      # challenge containers. NOTE: this grants the backend container
+      # effective root on the host — fine for local dev, but for production
+      # put a constrained proxy (e.g. docker-socket-proxy) in front of this,
+      # or replace the orchestrator with a Kubernetes API client instead.
+      - /var/run/docker.sock:/var/run/docker.sock
+    networks:
+      - platform_net
+
+  frontend:
+    image: nginx:alpine
+    ports:
+      - "8080:80"
+    volumes:
+      - ../frontend:/usr/share/nginx/html:ro
+    depends_on:
+      - backend
+    networks:
+      - platform_net
+
+networks:
+  platform_net:
+    driver: bridge
+  ctf_challenge_net:
+    driver: bridge
+
+volumes:
+  ctf_data:

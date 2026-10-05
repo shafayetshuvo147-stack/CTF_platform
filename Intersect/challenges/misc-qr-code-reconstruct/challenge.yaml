@@ -1,0 +1,9 @@
+slug: misc-qr-code-reconstruct
+name: "Damaged QR Code Alignment"
+category: misc
+description: >
+  A QR code has missing finder patterns (top-left, top-right, bottom-left squares). Rebuild the alignment markers to scan and read the flag.
+points: 150
+docker_image: "ctf/misc-qr-code-reconstruct:latest"
+container_port: 5000
+flag_env_var: FLAG

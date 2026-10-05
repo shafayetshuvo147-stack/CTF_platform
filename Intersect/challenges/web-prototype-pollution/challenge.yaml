@@ -1,0 +1,9 @@
+slug: web-prototype-pollution
+name: "JSON Merge Prototype Pollution"
+category: web
+description: >
+  A user profile preference merger is susceptible to JavaScript Object Prototype Pollution. Pollute Object.prototype.isAdmin to gain access.
+points: 300
+docker_image: "ctf/web-prototype-pollution:latest"
+container_port: 5000
+flag_env_var: FLAG

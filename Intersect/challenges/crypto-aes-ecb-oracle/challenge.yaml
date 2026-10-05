@@ -1,0 +1,9 @@
+slug: crypto-aes-ecb-oracle
+name: "AES-ECB Byte-by-Byte Oracle"
+category: crypto
+description: >
+  An encryption oracle appends an unknown secret flag to user input and encrypts with AES-128-ECB. Exploit block boundaries to recover the flag byte-by-byte.
+points: 250
+docker_image: "ctf/crypto-aes-ecb-oracle:latest"
+container_port: 5000
+flag_env_var: FLAG

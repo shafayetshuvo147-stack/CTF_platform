@@ -1,0 +1,9 @@
+slug: forensics-disk-image-carve
+name: "Deleted File Inode Carving"
+category: forensics
+description: >
+  An EXT4 disk image has unallocated sectors where a hacker deleted sensitive files. Use foremost / autopsy / sleuthkit to carve the deleted JPEG flag.
+points: 225
+docker_image: "ctf/forensics-disk-image-carve:latest"
+container_port: 5000
+flag_env_var: FLAG

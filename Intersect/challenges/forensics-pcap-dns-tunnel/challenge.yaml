@@ -1,0 +1,9 @@
+slug: forensics-pcap-dns-tunnel
+name: "DNS Exfiltration Tunnel Capture"
+category: forensics
+description: >
+  A packet capture (.pcap) records abnormal high-volume DNS TXT queries. Extract the hex-encoded subdomains to reconstruct the stolen flag document.
+points: 200
+docker_image: "ctf/forensics-pcap-dns-tunnel:latest"
+container_port: 5000
+flag_env_var: FLAG

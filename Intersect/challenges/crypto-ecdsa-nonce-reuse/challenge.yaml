@@ -1,0 +1,9 @@
+slug: crypto-ecdsa-nonce-reuse
+name: "ECDSA Repeated Nonce Leak"
+category: crypto
+description: >
+  Two distinct transactions were signed using ECDSA with the same ephemeral nonce k. Derive the signer's private key from the signature equations.
+points: 325
+docker_image: "ctf/crypto-ecdsa-nonce-reuse:latest"
+container_port: 5000
+flag_env_var: FLAG

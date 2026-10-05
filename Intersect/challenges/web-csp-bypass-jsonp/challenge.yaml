@@ -1,0 +1,9 @@
+slug: web-csp-bypass-jsonp
+name: "Strict CSP JSONP Bypass"
+category: web
+description: >
+  A secure application enforces a strict Content Security Policy but whitelists trusted domains with open JSONP endpoints. Bypass CSP to execute XSS.
+points: 275
+docker_image: "ctf/web-csp-bypass-jsonp:latest"
+container_port: 5000
+flag_env_var: FLAG

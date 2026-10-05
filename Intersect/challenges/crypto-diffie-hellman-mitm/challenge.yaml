@@ -1,0 +1,9 @@
+slug: crypto-diffie-hellman-mitm
+name: "Diffie-Hellman Subgroup Attack"
+category: crypto
+description: >
+  A key exchange protocol uses unverified group parameters susceptible to small subgroup confinement. Intercept and derive the shared session key.
+points: 225
+docker_image: "ctf/crypto-diffie-hellman-mitm:latest"
+container_port: 5000
+flag_env_var: FLAG

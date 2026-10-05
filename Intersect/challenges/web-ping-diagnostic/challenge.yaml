@@ -1,0 +1,9 @@
+slug: web-ping-diagnostic
+name: "NetPulse Command Injection"
+category: web
+description: >
+  A network diagnostic portal executes system ping commands. Bypass the input sanitization to execute arbitrary shell commands and read the environment flag.
+points: 150
+docker_image: "ctf/web-ping-diagnostic:latest"
+container_port: 5000
+flag_env_var: FLAG

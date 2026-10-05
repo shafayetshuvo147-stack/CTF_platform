@@ -1,0 +1,9 @@
+slug: web-pickle-deserialization
+name: "Python Pickle Keystore"
+category: web
+description: >
+  A session cookie stores base64-encoded Python pickle objects. Construct a malicious __reduce__ payload to execute code and obtain the flag.
+points: 300
+docker_image: "ctf/web-pickle-deserialization:latest"
+container_port: 5000
+flag_env_var: FLAG

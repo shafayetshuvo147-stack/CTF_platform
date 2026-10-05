@@ -1,0 +1,9 @@
+slug: web-lfi-log-poison
+name: "File View Log Poisoning"
+category: web
+description: >
+  A documentation viewer contains a Local File Inclusion (LFI) vulnerability. Read system files and traverse paths to capture the flag.
+points: 250
+docker_image: "ctf/web-lfi-log-poison:latest"
+container_port: 5000
+flag_env_var: FLAG

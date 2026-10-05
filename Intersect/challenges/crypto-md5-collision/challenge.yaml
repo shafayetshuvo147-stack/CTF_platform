@@ -1,0 +1,9 @@
+slug: crypto-md5-collision
+name: "Hash Collision Validator"
+category: crypto
+description: >
+  A contract signature checker relies on MD5. Generate two distinct binary files with the exact same MD5 hash using UniColl or fastcoll.
+points: 250
+docker_image: "ctf/crypto-md5-collision:latest"
+container_port: 5000
+flag_env_var: FLAG

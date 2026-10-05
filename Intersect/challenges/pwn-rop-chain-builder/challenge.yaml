@@ -1,0 +1,9 @@
+slug: pwn-rop-chain-builder
+name: "ROP Emporium Gadget Chain"
+category: pwn
+description: >
+  Assemble a Return-Oriented Programming (ROP) chain using pop rdi; ret, pop rsi; ret gadgets to set up arguments for the flag print syscall.
+points: 300
+docker_image: "ctf/pwn-rop-chain-builder:latest"
+container_port: 5000
+flag_env_var: FLAG

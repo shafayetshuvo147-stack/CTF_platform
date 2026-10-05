@@ -1,0 +1,9 @@
+slug: crypto-rsa-common-modulus
+name: "RSA Common Modulus Attack"
+category: crypto
+description: >
+  The same message was encrypted to two recipients sharing the same modulus N with coprime public exponents e1 and e2. Use Bezout's identity to decrypt.
+points: 225
+docker_image: "ctf/crypto-rsa-common-modulus:latest"
+container_port: 5000
+flag_env_var: FLAG

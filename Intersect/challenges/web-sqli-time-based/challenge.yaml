@@ -1,0 +1,9 @@
+slug: web-sqli-time-based
+name: "Chronos Timing Attack"
+category: web
+description: >
+  A search input gives identical responses regardless of query validity. Use sleep-based SQL injection to enumerate the admin flag character by character.
+points: 300
+docker_image: "ctf/web-sqli-time-based:latest"
+container_port: 5000
+flag_env_var: FLAG

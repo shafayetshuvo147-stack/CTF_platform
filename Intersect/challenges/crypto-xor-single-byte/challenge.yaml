@@ -1,0 +1,9 @@
+slug: crypto-xor-single-byte
+name: "Single Byte XOR Stream"
+category: crypto
+description: >
+  An encrypted communication packet was masked using a single-byte XOR key. Perform character frequency analysis to recover the plaintext.
+points: 125
+docker_image: "ctf/crypto-xor-single-byte:latest"
+container_port: 5000
+flag_env_var: FLAG

@@ -1,0 +1,9 @@
+slug: rev-dotnet-cil-decompile
+name: ".NET Assembly CIL Explorer"
+category: rev
+description: >
+  A Windows .NET application validates activation codes. Decompile the Common Intermediate Language (CIL) using dnSpy / ILSpy to find the license formula.
+points: 175
+docker_image: "ctf/rev-dotnet-cil-decompile:latest"
+container_port: 5000
+flag_env_var: FLAG

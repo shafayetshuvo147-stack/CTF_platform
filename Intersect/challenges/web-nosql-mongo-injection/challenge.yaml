@@ -1,0 +1,9 @@
+slug: web-nosql-mongo-injection
+name: "MongoDB Operator Injection"
+category: web
+description: >
+  A JSON login endpoint accepts raw objects passed into MongoDB queries. Use the $ne operator to bypass password verification.
+points: 225
+docker_image: "ctf/web-nosql-mongo-injection:latest"
+container_port: 5000
+flag_env_var: FLAG

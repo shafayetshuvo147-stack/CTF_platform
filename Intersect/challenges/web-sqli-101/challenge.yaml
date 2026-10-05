@@ -1,0 +1,10 @@
+slug: web-sqli-101
+name: "Staff Login"
+category: web
+description: >
+  There's a staff login page for a small internal tool. Something about
+  the login form looks... breakable. Can you get in without a valid password?
+points: 100
+docker_image: "ctf/web-sqli-101:latest"
+container_port: 5000
+flag_env_var: FLAG

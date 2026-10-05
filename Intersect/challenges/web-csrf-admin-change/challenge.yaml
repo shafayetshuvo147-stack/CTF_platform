@@ -1,0 +1,9 @@
+slug: web-csrf-admin-change
+name: "Portal Password Resetter"
+category: web
+description: >
+  The admin profile update endpoint lacks CSRF tokens and SameSite cookie protection. Forge a cross-site state change request.
+points: 175
+docker_image: "ctf/web-csrf-admin-change:latest"
+container_port: 5000
+flag_env_var: FLAG

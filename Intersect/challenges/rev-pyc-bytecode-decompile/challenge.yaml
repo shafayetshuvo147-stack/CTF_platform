@@ -1,0 +1,9 @@
+slug: rev-pyc-bytecode-decompile
+name: "Python Bytecode Recovery"
+category: rev
+description: >
+  A compiled Python .pyc file contains anti-tamper logic. Decompile the bytecode with uncompyle6 / pycdc to recover the hardcoded password checker.
+points: 175
+docker_image: "ctf/rev-pyc-bytecode-decompile:latest"
+container_port: 5000
+flag_env_var: FLAG

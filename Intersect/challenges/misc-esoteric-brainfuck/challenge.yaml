@@ -1,0 +1,9 @@
+slug: misc-esoteric-brainfuck
+name: "Brainfuck Code Interpreter"
+category: misc
+description: >
+  Decode a 2,000-character Brainfuck program containing pointer manipulation loops to retrieve the encrypted flag.
+points: 100
+docker_image: "ctf/misc-esoteric-brainfuck:latest"
+container_port: 5000
+flag_env_var: FLAG

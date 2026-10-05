@@ -1,0 +1,9 @@
+slug: crypto-one-time-pad-reuse
+name: "Two-Time Pad Key Replay"
+category: crypto
+description: >
+  A high-security channel reused the same One-Time Pad stream cipher key to encrypt two English text messages. XOR the ciphertexts to recover both plaintexts.
+points: 200
+docker_image: "ctf/crypto-one-time-pad-reuse:latest"
+container_port: 5000
+flag_env_var: FLAG

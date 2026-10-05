@@ -1,0 +1,9 @@
+slug: pwn-off-by-one-null-byte
+name: "Off-by-One Poison Null Byte"
+category: pwn
+description: >
+  A string copy loop writes exactly one null byte past the buffer end into the saved base pointer (RBP). Leverage frame poisoning to gain code execution.
+points: 350
+docker_image: "ctf/pwn-off-by-one-null-byte:latest"
+container_port: 5000
+flag_env_var: FLAG

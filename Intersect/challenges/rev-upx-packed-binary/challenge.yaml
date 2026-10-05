@@ -1,0 +1,9 @@
+slug: rev-upx-packed-binary
+name: "Unpacking Compressed Payloads"
+category: rev
+description: >
+  The binary is packed with a modified UPX header that prevents automated unpacking. Fix the corrupted PE/ELF headers and unpack to analyze.
+points: 150
+docker_image: "ctf/rev-upx-packed-binary:latest"
+container_port: 5000
+flag_env_var: FLAG

@@ -1,0 +1,9 @@
+slug: web-oauth-redirect-bypass
+name: "Single Sign-On Hijack"
+category: web
+description: >
+  An OAuth 2.0 implementation validates redirect_uri using loose regex matching. Bypass the validation to steal authorization codes.
+points: 225
+docker_image: "ctf/web-oauth-redirect-bypass:latest"
+container_port: 5000
+flag_env_var: FLAG

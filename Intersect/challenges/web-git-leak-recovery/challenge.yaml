@@ -1,0 +1,9 @@
+slug: web-git-leak-recovery
+name: "Exposed Source Repository"
+category: web
+description: >
+  A developer forgot to delete the .git folder from the production web root. Dump git commit objects to recover previous credentials.
+points: 175
+docker_image: "ctf/web-git-leak-recovery:latest"
+container_port: 5000
+flag_env_var: FLAG

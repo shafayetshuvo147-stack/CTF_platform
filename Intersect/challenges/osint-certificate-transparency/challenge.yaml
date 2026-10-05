@@ -1,0 +1,9 @@
+slug: osint-certificate-transparency
+name: "Certificate Transparency Mining"
+category: osint
+description: >
+  Search crt.sh and Certificate Transparency logs for wildcards and internal staging domains to locate an obscured secret development node.
+points: 150
+docker_image: "ctf/osint-certificate-transparency:latest"
+container_port: 5000
+flag_env_var: FLAG

@@ -1,0 +1,9 @@
+slug: crypto-rail-fence-cipher
+name: "Transposition Rail Fence"
+category: crypto
+description: >
+  The secret coordinates were encrypted by writing characters along a zigzag rail path. Reconstruct the rail count to read the hidden flag.
+points: 100
+docker_image: "ctf/crypto-rail-fence-cipher:latest"
+container_port: 5000
+flag_env_var: FLAG

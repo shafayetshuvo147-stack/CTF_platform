@@ -1,0 +1,9 @@
+slug: rev-golang-binary-analysis
+name: "Stripped Go Binary Analysis"
+category: rev
+description: >
+  A stripped Go binary has no symbol names or runtime table entries. Use GoReSym and Ghidra scripts to recover struct definitions and function names.
+points: 275
+docker_image: "ctf/rev-golang-binary-analysis:latest"
+container_port: 5000
+flag_env_var: FLAG

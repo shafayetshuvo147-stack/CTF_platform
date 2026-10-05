@@ -1,0 +1,9 @@
+slug: forensics-exif-geotag-intel
+name: "Photographic Metadata Intelligence"
+category: forensics
+description: >
+  Extract hidden EXIF metadata, GPS latitude/longitude, and camera comment tags from an uploaded evidence photograph.
+points: 100
+docker_image: "ctf/forensics-exif-geotag-intel:latest"
+container_port: 5000
+flag_env_var: FLAG

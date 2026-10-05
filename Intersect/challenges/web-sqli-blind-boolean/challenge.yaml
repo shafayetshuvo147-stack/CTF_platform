@@ -1,0 +1,9 @@
+slug: web-sqli-blind-boolean
+name: "Blind Oracle SQLi"
+category: web
+description: >
+  The username availability check returns True or False without error output. Automate Boolean-based blind SQL injection to extract the secret key.
+points: 275
+docker_image: "ctf/web-sqli-blind-boolean:latest"
+container_port: 5000
+flag_env_var: FLAG

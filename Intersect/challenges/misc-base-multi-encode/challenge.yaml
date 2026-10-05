@@ -1,0 +1,9 @@
+slug: misc-base-multi-encode
+name: "Multi-Layer Base Encoding"
+category: misc
+description: >
+  The flag was recursively encoded with Base16, Base32, Base58, Base64, and Base85. Write a script or use CyberChef recipe to peel back all layers.
+points: 100
+docker_image: "ctf/misc-base-multi-encode:latest"
+container_port: 5000
+flag_env_var: FLAG

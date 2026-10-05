@@ -1,0 +1,9 @@
+slug: rev-string-obfuscator
+name: "Polymorphic String Deobfuscation"
+category: rev
+description: >
+  Critical strings in this binary are dynamically decrypted in memory at runtime via stack strings and XOR loops. Extract the decryptor routine.
+points: 175
+docker_image: "ctf/rev-string-obfuscator:latest"
+container_port: 5000
+flag_env_var: FLAG

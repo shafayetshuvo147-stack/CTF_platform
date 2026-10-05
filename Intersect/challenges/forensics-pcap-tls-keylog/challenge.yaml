@@ -1,0 +1,9 @@
+slug: forensics-pcap-tls-keylog
+name: "TLS Decryption with SSLKEYLOG"
+category: forensics
+description: >
+  You are given an encrypted HTTPS capture along with an extracted sslkeylog.txt file. Load the secrets into Wireshark to decrypt the TLS streams.
+points: 275
+docker_image: "ctf/forensics-pcap-tls-keylog:latest"
+container_port: 5000
+flag_env_var: FLAG
